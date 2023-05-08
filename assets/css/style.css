@@ -1,0 +1,127 @@
+/* common selector */
+body{
+    background-image: url(../photos/banner1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    animation: change 25s infinite ease-in-out;
+}
+.font-color{
+    color: #A5A6AB;
+}
+.background-color{
+    background: rgba(10,11,15,.9);
+}
+.section-gap{
+    margin-top: 150px !important;
+}
+
+/* animation */
+@keyframes change{
+    0%{
+        background-image: url(../photos/banner1.jpg);
+    }
+    25 %{
+        background-image: url(../photos/bg1.jpg);
+    }
+    50%{
+        background-image: url(../photos/bg3.jpg);
+    }
+    75%{
+        background-image: url(../photos/bg4.jpg);
+    }
+    100%{
+        background-image: url(../photos/bg5.jpg);
+    }
+}
+/* nav section start */
+.navbar{
+    background: rgba(10,11,15,.9) !important;
+}
+.active{
+    color: #2FBDAB !important;
+}
+.nav-link:hover{
+    color: #2FBDAB !important;
+}
+nav .dropdown-menu{
+    background-color: black;
+}
+nav .dropdown-item:hover{
+    color: #2FBDAB !important;
+    background-color: black;
+}
+.navbar-icon .nav-link i{
+    background-color: #ffffff ;
+    border-radius: 50%;
+}
+.navbar-icon .nav-link i:hover{
+    color: #0D99FF;
+}
+
+/* nav section end */
+
+/* header section start  */
+.header-section{
+}
+.header-content{
+    letter-spacing: 1px;
+    padding-top: 150px!important;
+    padding-bottom: 100px;
+}
+.header-content .btn:hover{
+    color: #ffffff;
+    background-color: #34E3C9 !important;
+}
+/* header section end  */
+
+/* about section start  */
+
+.about-content .about-text{
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: -15px;
+}
+.about-content li::marker {
+    color: #34E3C9 !important;
+}
+/* about section end  */
+
+/* portfolio section start */
+.portfolio-section ul li a:hover{
+    color:#34E3C9 !important;
+}
+.rev{
+    margin-left: 0px;
+}
+/* portfolio section end */
+
+/* service section start */
+.fa-camera, .fa-pen, .fa-film{
+    color:#ffffff;
+    font-size: 40px;
+}
+.image1{
+    padding-left: 150px;
+}
+.image2{
+    margin-top: -200px;
+}
+
+/* service section end */
+
+/* contact section start */
+.form-button:hover{
+    background-color: #34E3C9 !important;
+}
+.fa-location-dot, .fa-phone, .fa-envelope{
+    color:#ffffff;
+    font-size: 25px;
+}
+/* contact section end */
+
+.followme:hover{
+    background-color: #34E3C9;
+}
+.followme{
+    background-color: #ffffff;
+}
